@@ -5,11 +5,13 @@ import Navbar from "../components/Navbar"
 const MainLayout = () => {
   return (
     <>
+    <div className=' bg-primary_color-dark_background text-primary_color-light_background' >
     <div>
         <Navbar/>
     </div>
     <div className='text-3xl'>
         <Outlet/>
+    </div>
     </div>
     </>
   )
