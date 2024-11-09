@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar"
 const MainLayout = () => {
   return (
     <>
-    <div className=' bg-primary_color-dark_background text-primary_color-light_background' >
+    <div className=' bg-primary_color-light_background text-primary_color-dark_background' >
     <div>
         <Navbar/>
     </div>
