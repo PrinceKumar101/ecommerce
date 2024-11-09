@@ -8,7 +8,7 @@ function Navbar() {
   const websiteName = "BoltBaba";
   return (
     <>
-      <nav className="bg-inherit p-4 shadow-md">
+      <nav className="bg-inherit p-2 shadow-md">
         <div className="flex items-center justify-between container mx-5">
           <div className="text-xl font-bold">
             {websiteName}
@@ -42,7 +42,7 @@ function Navbar() {
               <input
                 type="text"
                 placeholder="What are you looking for?"
-                className="p-2 pl-10 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:shadow-lg w-64 bg-slate-100 rounded-md"
+                className="p-1 pl-10 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:shadow-lg w-64 bg-slate-100 rounded-md"
               />
               <IoIosSearch
                 size={20}
